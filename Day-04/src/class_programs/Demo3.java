@@ -6,7 +6,6 @@ public class Demo3 {
 	Demo3 str1 = new Demo3();
 	Demo3 str2 = new Demo3();
 	str1.x = "Hello Demo!";
-	str2.x = "All good?";	
 	System.out.println(str1.x);
 	System.out.println(str2.x);
 	}
