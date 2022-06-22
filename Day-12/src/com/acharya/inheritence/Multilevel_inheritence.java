@@ -6,10 +6,10 @@ class Animal1 {
 		System.out.println("eating.....");
 	}
 }
-class Dog extends Animal1 {
+class lion extends Animal1 {
 	void bark()
 	{
-		System.out.println("barking.....");
+		System.out.println("roaring.....");
 	}
 }
 class BabyDog extends Dog {

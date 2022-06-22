@@ -6,18 +6,18 @@ class Animal {
 		System.out.println("eating.....");
 	}
 }
-class Dog extends Animal {
-	void bark()
+class Snake extends Animal {
+	void hiss()
 	{
-		System.out.println("barking.....");
+		System.out.println("hissing.....");
 }
 }
 
 public class Single_inheritence {
 
 	public static void main(String[] args) {
-		Dog d = new Dog();
-		d.bark();
+		Snake d = new Snake();
+		d.hiss();
 		d.eat();
 		
 
